@@ -12,7 +12,7 @@ A React-based web application for a fitness center featuring an AI-powered chatb
 ## Tech Stack
 
 - **Frontend**: React, Vite
-- **Styling**: Vanilla CSS (Custom properties, Flexbox/Grid)
+- **Styling**: CSS
 - **AI Integration**: Google Gemini API
 - **Routing**: React Router DOM
 

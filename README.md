@@ -1,16 +1,86 @@
-# React + Vite
+🏋️ Fitness FAQ – AI-Powered Gym Discovery Chatbot
+📌 Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Fitness FAQ is an AI-powered FAQ chatbot designed to help users discover the best-fit gyms, fitness centers, trainers, and programs based on their comfort, preferences, and goals.
 
-Currently, two official plugins are available:
+The project uses rule-based NLP + Generative AI (Gemini) to provide accurate, trustworthy, and scalable fitness information.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This prototype currently demonstrates the concept using Octane Fitness Studio (Erode, Tamil Nadu) and is built as part of the 6-Week AI & GenAI Training Challenge (Challenge 2) by HPE & Intel.
 
-## React Compiler
+🎯 Problem Statement
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+People often struggle to:
 
-## Expanding the ESLint configuration
+Find reliable gyms
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Compare facilities, trainers, and programs
+
+Get clear answers about timings, amenities, and services
+
+Small gyms and fitness startups also lack digital visibility beyond their local area.
+
+💡 Solution
+
+Fitness FAQ solves this by:
+
+Providing instant, conversational answers
+
+Promoting verified gyms via AI-driven FAQs
+
+Combining structured gym data + GenAI intelligence
+
+Offering a scalable platform to onboard multiple gyms
+
+🚀 Key Features
+
+🤖 AI-powered FAQ chatbot
+
+🏋️ Gym & fitness program discovery
+
+✨ Gemini GenAI fallback (no hallucination design)
+
+🌍 Promotes local gyms globally
+
+💰 Monetization-ready (featured gyms & programs)
+
+🛠️ Tech Stack
+
+Frontend: React.js
+
+AI/NLP: Gemini API (Free Tier)
+
+Data Format: Structured JSON
+
+⚙️ How It Works
+
+User asks a question
+
+Query is normalized
+
+Rule-based engine tries to answer
+
+If confidence is low → Gemini AI is used
+
+AI is strictly grounded to gym data
+
+🔐 Why This Is Safe & Trustworthy
+
+AI answers only from verified gym data
+
+No hallucinated or false information
+
+Businesses can update data easily
+
+📈 Future Scope
+
+Multi-gym onboarding
+
+Location-based recommendations
+
+User preference learning
+
+Paid promotions & affiliate memberships
+
+📄 License
+
+This project is developed for educational and prototype purposes under AI & GenAI training.
